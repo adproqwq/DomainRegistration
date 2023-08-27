@@ -1,5 +1,5 @@
 function check(){
-    var domain = document.getElementById("domain");
+    var domain = document.getElementById("domain").value;
     console.log(domain);
     if(domain == "www" || domain == "cet" || domain == "game" || domain == "blog") alert("此字段已被注册！")
     else{
